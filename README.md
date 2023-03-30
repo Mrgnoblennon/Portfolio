@@ -10,8 +10,15 @@ This assignment has encouraged me to use pseudo classes and media queries to fur
 
 ## Version History
 
+* 0.3
+    * added the link to the final website 
+
 * 0.2
-    * added a complete README.md file
+    * added a README.md file
 
 * 0.1
     * Initial Release
+
+## Website Deployment
+
+Link: [Portfolio](https://mrgnoblennon.github.io/Homework-2/)
