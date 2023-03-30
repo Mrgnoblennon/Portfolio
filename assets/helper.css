@@ -1,0 +1,49 @@
+.d-flex {
+    display: flex;
+}
+
+.jc-space-between {
+    justify-content: space-between;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-space-around {
+    justify-content: space-around;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.jc-space-evenly {
+    justify-content: space-evenly;  
+}
+
+.f-w {
+    flex-wrap: wrap;
+}
+
+.ac-start {
+    align-content: start;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+.fd-row {
+    flex-direction: row;
+}
+
+.fd-
+
+.float-r {
+    float: right;
+}
+
+.jc-end {
+    justify-content: end;
+}
