@@ -12,23 +12,29 @@
 </head>
 
 <body>
-  <header class="nav-main d-flex jc-space-between ai-center">
+  <!-- creating a header container to include a nav bar -->
+  <header class="nav-main">
     <nav class="nav-title">
       <p>Lernatino</p>
     </nav>
-    <nav class="nav-section d-flex jc-space-between">
+    <nav class="nav-section">
+      <!-- adding <a> tags with href attribute so that when the element has been clicked, 
+           it will scroll into view the referenced element -->
       <a href="#about1" class="nav-button">About me</a>
       <a href="#work1" class="nav-button">Work</a>
       <a href="#contact1" class="nav-button">Contact Me</a>
+      <!-- href is intentionally empty to resemble the mock image -->
       <a href="" class="nav-button">Resume</a>
     </nav>
   </header>
 
 <main>
+  <!-- adding cover image -->
   <section class="banner">
+    <img class="me" src="assets/img/me.jpg" alt="An image of myself" height="225px">
     <img src="./assets/img/freo.jpg" alt="Banner img." height="100%" width="100%" class="banner-img">
   </section>
-
+  <!-- adding section to describe a little bit about myself -->
   <section class="about-me"> 
     <p>Hello! my name is Chase Barrett-Brown. This webpage was developed to 
     showcase my progressive understanding of combining HTML and CSS apects 
@@ -50,30 +56,35 @@
     pixel size for different devices such as laptops, tablets or smartphones.</p>
   </section>
 
+  <!-- adding a section for the info cards to create and position using flex-->
   <section class="main-content">
-    <div class="big">
+    <!-- a div for the big info card -->
+    <!-- applied image to background image in the stylesheet -->
+    <div class="big-card">
+      <!-- added a link to a webpage, _blank will open it in a new browser tab -->
       <a href="https://www.swellnet.com/reports/australia/western-australia/perth" target="_blank">SURF REPORT 
       <br> 
       <span style="font-size: medium">MERN Stack</span> </a> 
     </div>
-
+    <!-- multiple divs for each of the smaller info cards -->
+    <!-- applied images to background image in the stylesheet -->
     <div class="main-wrap">
-      <div class="small" id="img-1">
+      <div class="small-card" id="img-1">
       <a href="https://www.planar.com/products/led-video-walls/" target="_blank">LED WALL 
       <br> <span style="font-size: medium;">Node/IoT</span> </a>
     </div>
 
-    <div class="small" id="img-2">
+    <div class="small-card" id="img-2">
       <a href="https://www.programiz.com/python-programming/examples/calculator" target="_blank">CALCULATOR 
       <br> <span style="font-size: medium;">React/JavaScript/CSS</span> </a>
     </div>
 
-    <div class="small" id="img-3">
+    <div class="small-card" id="img-3">
       <a href="https://omniglot.com/conscripts/puzzlecode.htm" target="_blank">PASTEL PUZZLES 
       <br> <span style="font-size: medium;">MERN Stack</span> </a>
     </div>
 
-    <div class="small" id="img-4">
+    <div class="small-card" id="img-4">
       <a href="https://www.w3schools.com/html/default.asp" target="_blank">RUN BUDDY 
       <br> <span style="font-size: medium;">HTML/CSS</span> </a>
     </div>

@@ -8,16 +8,9 @@ The purpose of this assignment was to use utilise previous knowledge learned abo
 
 This assignment has encouraged me to use pseudo classes and media queries to further the quality of the content within this webpage.
 
-## Version History
+## Screenshot
 
-* 0.3
-    * added the link to the final website 
-
-* 0.2
-    * added a README.md file
-
-* 0.1
-    * Initial Release
+![Final screenshot of the assignment.](assets/img/Final%20Deployment.png)
 
 ## Website Deployment
 
