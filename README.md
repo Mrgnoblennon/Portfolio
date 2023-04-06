@@ -14,4 +14,4 @@ This assignment has encouraged me to use pseudo classes and media queries to fur
 
 ## Website Deployment
 
-Link: [Portfolio](https://mrgnoblennon.github.io/Homework-2/)
+Link: [Portfolio](https://mrgnoblennon.github.io/Portfolio/)
